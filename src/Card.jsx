@@ -3,7 +3,7 @@ import CountButtons from "./CountButtons";
 import ResetButton from "./ResetButton";
 import Title from "./Title";
 
-const Card = () => {
+export default function Card() {
   return (
     <div>
       <Title />
@@ -12,6 +12,4 @@ const Card = () => {
       <CountButtons />
     </div>
   );
-};
-
-export default Card;
+}

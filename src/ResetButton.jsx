@@ -1,5 +1,3 @@
-const ResetButton = () => {
+export default function ResetButton() {
   return <button>Reset</button>;
-};
-
-export default ResetButton;
+}
